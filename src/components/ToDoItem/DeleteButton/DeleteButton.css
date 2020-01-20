@@ -1,0 +1,16 @@
+.deletebutton {
+    margin-left: auto;
+    font-size: 18px;
+    color:rgb(255, 7, 48);
+    padding: 10px;
+    cursor: pointer;
+    text-shadow: 0 0 1px grey;
+}
+
+.deletebutton:hover {
+    transform: scale(1.5);
+    -webkit-transition: transform .1s ease-out ;
+       -moz-transition: transform .1s ease-out ;
+         -o-transition: transform .1s ease-out ;
+            transition: transform .1s ease-out ;
+}

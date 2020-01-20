@@ -1,0 +1,26 @@
+.additemstring {
+    display: flex;
+    min-height: 30px;
+    text-align: left;
+    padding: 4px;
+    cursor: text;
+    margin-bottom: 40px;
+}
+
+.icon {
+    display: block;
+    width:28px;
+    font-size: 32px;
+    color: grey;
+    padding: 5px;
+    padding-left: 14px;
+}
+
+.textInput {
+    font-size: 22px;
+    padding: 8px;
+    color: #777777;
+    border:0;
+    margin-top:2px;
+    width:470px;
+}

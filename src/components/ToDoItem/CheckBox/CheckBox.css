@@ -1,0 +1,28 @@
+.checkbox {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #AAAAAA;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 2px grey;
+}
+
+.checked {
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    background-color: cadetblue;
+    margin: 3px;
+
+}
+
+.checkbox:hover {
+    box-shadow: 0 0 15px cadetblue;
+    -webkit-transition: box-shadow .2s ease-out ;
+       -moz-transition: box-shadow .2s ease-out ;
+         -o-transition: box-shadow .2s ease-out ;
+            transition: box-shadow .2s ease-out ;
+}

@@ -1,0 +1,16 @@
+.main {
+    background-color: #fff;
+    width: 600px;
+    min-height: 300px;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 12px 12px 10px #555;
+    margin: 30px;
+    position:relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}

@@ -1,0 +1,26 @@
+.filterbar {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    
+}
+
+.content {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: grey;
+    font-size: 0.8rem;
+    padding: 1px 4px 1px 4px;
+}
+
+a:hover, a.selected {
+    border: 1px solid cadetblue;
+}
+
